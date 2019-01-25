@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Tab/Window Title</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<!-- <script>
+  less = {
+    env: "development"
+  };
+</script>
+<script src="less.js" type="text/javascript"></script> -->
+<!--This line above links the HTML Webpage to the styles.less Stylesheet. -->
+<!--
+Style Information Defined Below
+
+This particular Class is defined in the Stylesheet named "styles.less"
+ -->
+<!-- <style>
+.redWithPadding {
+  color: red;
+  margin: 20px;
+  padding: 20px;
+  background-color: black;
+}
+</style> -->
+
+<!-- Head Section Starts Here-->
+</head>
+
+<body>
+  <div class="redWithPadding">
+    <!--A CSS Class like the one above merely references a list of CSS Styles, which may include
+    anything from color, to background-colors, to margins and padding. The formatting and syntax
+    for CSS Styles and Class definitions are shown above the "head" section. But the actual location
+    that is being referenced in this example lives in the "styles.less" file, which is a Stylesheet.
+    A Stylesheet merely defines and lists all Styles and Classes for a given webpage in JavaScript
+    Object Notation (AKA "JSON") format.-->
+    <h1><b>BOLD HEADING STUFF</b></h1>
+    </br>
+    <p>Some text that inherits its CSS styles from its parent <i>div</i> element <i>style</i> or <i>class</i> attributes.</p>
+    <p>Which includes this red color and the black background, margins, and padding.</p>
+    <p style="color: cyan;">But this text has a different color specified in its own <i>style</i> attribute, overriding the inherited parent <i>div</i> element's style for this element only.</p>
+    <!--A CSS Class can have multiple Styles associated with it. But you can manually configure a Style for
+    any given element by giving it a "Style" attribute, and defining the Style Property (Like "color")
+    you'd like to add and giving it a Property Value (In this case, "cyan").-->
+    </br>
+    "Some Quoted text to show what happens when text is re-encoded because the page is not in UTF-8 encoding using the Meta Tag."
+  </div>
+</body>
+
+</html>
